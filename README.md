@@ -29,11 +29,11 @@ Enter password: # Here, type the password that you entered while installing
 # Connect to PDB container
 connect SYSTEM/YOUR_PASSWORD@XEPDB1;
 
-# Creation of efoodbasket user
+# Creation of biplove user
 CREATE USER biplove IDENTIFIED BY "biplove_don";
 
 # Grant permissions
-GRANT CONNECT, RESOURCE, DBA TO efoodbasket;
+GRANT CONNECT, RESOURCE, DBA TO biplove;
 
 # Exit from sqlplus
 exit
